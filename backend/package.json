@@ -1,0 +1,28 @@
+{
+  "name": "backend-tutorial",
+  "version": "1.0.0",
+  "description": "a tutorial for into to backend",
+  "homepage": "https://github.com/Jbraimohtech/backend-tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/Jbraimohtech/backend-tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbraimohtech/backend-tutorial.git"
+  },
+  "license": "ISC",
+  "author": "Joshua Braimoh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3",
+    "nodemon": "^3.1.14"
+  }
+}
